@@ -14,11 +14,12 @@
             android:id="@+id/listFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="2"
             />
-    <fragment
-            class="com.tda.saipc.workouts.workouts.WorkoutDetailFragment"
-            android:id="@+id/detailFragment"
+    <FrameLayout
+            android:id="@+id/fragmentContainer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="3"
             />
 </LinearLayout>
