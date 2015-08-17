@@ -8,9 +8,10 @@
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context=".MainActivity">
 
-    <TextView
-            android:text="@string/hello_world"
+    <fragment
+            class="com.tda.saipc.workouts.workouts.WorkoutDetailFragment"
+            android:id="@+id/detailFragment"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
+            android:layout_height="wrap_content"
+            />
 </RelativeLayout>
