@@ -22,6 +22,7 @@ public class MainActivity extends Activity implements WorkoutListFragment.Workou
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fragmentContainer, workoutDetailFragment);
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }
